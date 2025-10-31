@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+</head>
+<body>
+    <h1>Student Details</h1>
+
+    <table border="1">
+      <thead>
+        <tr>
+            <th>Sr No</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>Pin Code</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>1001</td>
+            <td>Samarth</td>
+            <td>9890909009</td>
+            <td>Sant Tukaram Nagar, Pimpri</td>
+            <td>samarth@gmail.com</td>
+            <td>22</td>
+            <td>411018</td>
+        </tr>
+
+        <tr>
+            <td>1002</td>
+            <td>Narayan</td>
+            <td>9898909900</td>
+            <td>Indrayani Nagar, Bhosri</td>
+            <td>narayan@gmail.com</td>
+            <td>25</td>
+            <td>411017</td>
+        </tr>
+
+        <tr>
+            <td>1003</td>
+            <td>Sachin</td>
+            <td>9878788900</td>
+            <td>Moshi Gaon, Moshi</td>
+            <td>sachin@gmail.com</td>
+            <td>22</td>
+            <td>411019</td>
+        </tr>
+
+        <tr>
+            <td>1004</td>
+            <td>Aniket</td>
+            <td>9890908009</td>
+            <td>Devpur, Dhule</td>
+            <td>aniket@gmail.com</td>
+            <td>22</td>
+            <td>411016</td>
+        </tr>
+    </tbody>
+    </table>
+    <hr>
+
+    <h1>Rowspan Table Example</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>District</th>
+                <th>Taluka</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5">Parbhani</td>
+                <td>Jintur</td>
+            </tr>
+            <tr>
+                <td>Selu</td>
+            </tr>
+            <tr>
+                <td>Manwat</td>
+            </tr>
+            <tr>
+                <td>Pathri</td>
+            </tr>
+            <tr>
+                <td>Palam</td>
+            </tr>
+
+            <td rowspan="3">Pune</td>
+            <td>Pimpri</td>
+
+            <tr>
+                <td>Chinchwad</td>
+            </tr>
+            <tr>
+                <td>Haveli</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="5">District</th>
+                <th colspan="3">Taluka</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <th>Parbhani</th>
+                </tr>
+            </tbody>
+        </thead>
+
+    </table>
+</body>
+</html>
