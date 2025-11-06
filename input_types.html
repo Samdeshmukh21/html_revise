@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Form Deatils</h2>
+    <h3>Fill the following form</h3>
+
+    <fieldset>
+        <form>
+            <label>First Name</label>
+            <input type="text" /> <br> <br>
+
+            <label>Last Name</label>
+            <input type="text" /> <br> <br>
+
+            <label>Middle Name</label>
+            <input type="text" placeholder="Enter Middle Name" /> <br> <br>
+
+            <label>Mobile Number</label>
+            <input type="number" placeholder="Enter Mobile Number" /> <br> <br>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" /> <br> <br>
+
+            <label>Choose Cities</label> <br>
+            <input type="checkbox" /> Mumbai
+            <input type="checkbox" /> Pune
+            <input type="checkbox" /> Nagpur
+            <input type="checkbox" /> Delhi
+            <input type="checkbox" /> Panvel <br> <br>
+
+            <label>Gender</label> <br>
+            <input type="radio" name="gender" /> Male
+            <input type="radio" name="gender" /> Female <br> <br>
+
+            <label>Date and Time</label>
+            <input type="date">
+            <input type="month">
+            <input type="week"> <br> <br>
+
+            <label>Upload Docs</label>
+            <input type="file" multiple /> <br> <br>
+
+            <label>Select your Favourite Dish</label>
+            <select>
+                <option>Choose Dish...</option>
+                <option>Kaju Katli</option>
+                <option>Rasmalai</option>
+                <option>Sonpapdi</option>
+                <option>Rasgulla</option>
+                <option>Jilabi</option>
+            </select> <br> <br>
+
+            <textarea cols="30" rows="10"></textarea> <br> <br>
+
+            <button type="button" onclick="alert('Something Wrong !')">Submit</button> <br>
+        </form>
+    <fieldset> <br> <br>
+
+        <form action="/action_page.php">
+            <fieldset>
+              <legend>Information:</legend>
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <label for="birthday">Birthday:</label>
+              <input type="date" id="birthday" name="birthday"><br><br>
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+</body>
+
+</html>
